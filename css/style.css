@@ -179,7 +179,6 @@ body {
     color: #212121;
     cursor: pointer;
 }
-
 .butn:hover,
 .butn:focus {
     background: var(--accent-color);
@@ -202,7 +201,6 @@ body {
     letter-spacing: 0.06em;
     color: #212121;
 }
-
 .projects {
     font-size: 16px;
     line-height: 1.88;
