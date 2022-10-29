@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Roboto", "Raleway";
+    font-family: "Roboto", sans-serif;
     color: #757575;
 }
 
@@ -75,6 +75,7 @@ body {
 
  .main-butn {
      font-family: inherit;
+     font-weight: 700;
      font-size: 16px;
      line-height: 1.87;
      display: flex;
@@ -90,7 +91,7 @@ body {
      border: none;
  }
 
- /* =========Секція 2/Skills========== */
+ /* =========Секція 2========== */
  .skills-title {
      font-size: 14px;
      line-height: 1.14;
@@ -113,8 +114,9 @@ body {
      color: var(--main-title-color);
  }
 
- /* =========КОМАНДА========= */
+ /* =========Секція 4========= */
  .team-title {
+     font-weight: 500;
      font-size: 16px;
      line-height: 1.19;
      text-align: center;
@@ -138,13 +140,22 @@ body {
      letter-spacing: 0.03em;
      color: #ffffff;
  }
+.address{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 
+}
  .address:hover,
  .address:focus {
      color: var(--accent-color);
  }
 
  .footer-contact {
+     font-weight: 400;
      font-size: 14px;
      line-height: 1.71;
      letter-spacing: 0.03em;
@@ -158,7 +169,7 @@ body {
 
  /* ====================ПОРТФОЛІО==================== */
  .butn {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
